@@ -7,6 +7,10 @@ html, body {
     padding: 0;
 }
 
+p {
+    margin: 0.3em;
+}
+
 #main {
     width: 1280px;
     height: 720px;
@@ -26,6 +30,22 @@ html, body {
 }
 
 #layer-background > #comment {
+    color: white;
+    font-size: 35px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.event-calendar {
+    padding-top: 1em;
+}
+
+.event-calendar-title {
+    color: white;
+    font-size: 40px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.event-text {
     color: white;
     font-size: 30px;
     font-family: 'M PLUS 1p', sans-serif;
