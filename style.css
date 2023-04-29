@@ -1,0 +1,32 @@
+/* import MPLUS font */
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 1280px;
+    height: 720px;
+    background: rgb(72, 90, 207);
+}
+
+#layer-background {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.T1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+#layer-background > #comment {
+    color: white;
+    font-size: 30px;
+    font-family: 'M PLUS 1p', sans-serif;
+}
